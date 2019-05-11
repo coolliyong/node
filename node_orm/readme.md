@@ -71,7 +71,7 @@ Article.belongsTo(Author, { foreignKey: 'author_id' })
 
 ## 查询
 
-- `find` - 搜索数据库中的一个特定元素
+- `SELECT` - 搜索数据库中的一个特定元素
 
 ```javascript
 // 搜索已知的ids
